@@ -18,6 +18,9 @@ export default function Home() {
             <Button size="lg" asChild className="button w-full sm:w-fit">
               <Link href="#events"> Explore Now</Link>
             </Button>
+          </div>
+          <div>
+            {" "}
             <Image
               src="/assets/images/hero.png"
               width={1000}
