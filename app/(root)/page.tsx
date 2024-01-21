@@ -28,14 +28,16 @@ export default function Home() {
           />
         </div>
       </section>
-
-      <section id="events" className="">
-        <h1>Trusted by <br /> Thousands of Events</h1>
-        <div className="flex w-full flex-col gap-4 md:flex-row">
-          <p>Category</p>
-          <p>Search</p>
+      <section
+        id="events"
+        className="wrapper my-8 flex flex-col gap-8 md:gap-12"
+      >
+        <h2 className="h2-bold">
+          Trusted by <br /> Thousands of Events
+        </h2>
+        <div className="flex w-full flex-col gap-5 md:flex-row">
+          Search CategoryFilter
         </div>
-
       </section>
     </>
   );
